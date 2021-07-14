@@ -1,0 +1,10 @@
+[package]
+name = "rust_ffi"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+name = "rust_ffi"
+crate-type = ["staticlib", "cdylib"]
+
+[dependencies]
