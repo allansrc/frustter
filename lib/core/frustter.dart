@@ -2,7 +2,7 @@ import 'dart:io';
 import 'dart:ffi';
 import 'package:ffi/ffi.dart';
 
-const DYNAMIC_LIB_ANDROID = 'libgreeter.so';
+const DYNAMIC_LIB_ANDROID = 'librust_ffi.so';
 
 typedef GreetingFunction = Pointer<Utf8> Function(Pointer<Utf8>);
 typedef GreetingFunctionFFI = Pointer<Utf8> Function(Pointer<Utf8>);
